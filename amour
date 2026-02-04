@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Question importante ❤️</title>
+
+<style>
+body {
+text-align:center;
+font-family:Arial;
+margin-top:100px;
+}
+
+button {
+padding:15px 30px;
+font-size:20px;
+margin:20px;
+}
+
+#no {
+position:absolute;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Veux-tu épouser ton petit KOBY ? ❤️</h1>
+
+<button onclick="oui()">Oui</button>
+<button id="no">Non</button>
+
+<script>
+
+const no = document.getElementById("no");
+
+no.addEventListener("mouseover", () => {
+no.style.left = Math.random()*300 + "px";
+no.style.top = Math.random()*300 + "px";
+});
+
+function oui(){
+alert("Elle a dit OUI 💍❤️");
+}
+
+</script>
+
+</body>
+</html>
